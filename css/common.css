@@ -48,7 +48,7 @@ body {
     /* 문장간의 공간을 폰트사이즈와 동일하게 해서 layout을 쉽게 구현할 수 있게 해준다. */
     font-family: 'Roboto', 'Noto Sans KR', sans-serif;
     line-height: 1;
-    color: #444;
+    color: #111;
 }
 
 .cf::after,

@@ -1,3 +1,15 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    letter-spacing: 0.05em;
+}
+
+.header:hover {
+    background: #fff;
+}
+
 .header h1 {
     width: 80px;
     font-size: 0;
@@ -50,6 +62,7 @@
 .header .gnb>li:hover>ul {
     opacity: 1;
     transition: 0.5s;
+
 }
 
 .header .gnb>li .submenu a {
@@ -68,4 +81,148 @@
 
 .mainVisual .main_slide {
     z-index: -1;
+}
+
+.mainVisual .main_slide .itm {
+    position: relative;
+    width: 1550px;
+    margin: 0 auto;
+}
+
+.mainVisual .main_slide .itm .txt {
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    color: #333;
+}
+
+.mainVisual .main_slide .itm .txt strong {
+    display: block;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 0.035em;
+    margin: 0 0 40px 0;
+}
+
+
+.mainVisual .main_slide .itm .txt p {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.mainVisual .slide_num {
+    position: absolute;
+    bottom: 200px;
+    left: 220px;
+}
+
+.mainVisual .slide_num span {
+    margin: 0 200px 0 0;
+}
+
+.mainVisual .slide_bar {
+    position: relative;
+    bottom: 195px;
+    left: 240px;
+    width: 180px;
+    height: 3px;
+    background: #fff;
+}
+
+.mainVisual .slide_arrow {
+    position: absolute;
+    bottom: 195px;
+    left: 200px;
+    font-size: 22px;
+    cursor: pointer;
+    color: rgb(59, 59, 59);
+}
+
+.mainVisual .slide_arrow i:first-child {
+    transform: rotate(180deg);
+    margin: 0 210px 0 0;
+}
+
+.mainMenu {
+    padding: 100px 0;
+}
+
+.mainMenu .inner {
+    position: relative;
+    display: flex;
+    gap: 60px;
+
+}
+
+.mainMenu .inner .left {
+    width: 475px;
+}
+
+.mainMenu .inner .left h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #333;
+}
+
+.mainMenu .inner .left p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 35px;
+    padding: 10px 0;
+
+}
+
+.mainMenu .inner .menu_slide {
+    width: 1075px;
+    margin: 0 -15px;
+}
+
+.mainMenu .inner .menu_slide .itm {
+    margin: 0 15px;
+}
+
+.mainMenu .inner .menu_slide .itm img {
+    margin: 0 0 30px 0;
+}
+
+.mainMenu .inner .menu_slide .itm p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.mainMenu .inner .menu_num {
+    position: absolute;
+    bottom: 0;
+    left: 35px;
+    font-size: 30px;
+    color: #ddd;
+
+}
+
+.mainMenu .inner .menu_num.on {
+    color: #111;
+}
+
+.mainMenu .inner .menu_arrow {
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+    color: #ddd;
+}
+
+.mainMenu .inner .menu_arrow i {
+    margin: 0 95px 0 0;
+    vertical-align: middle;
+}
+
+
+
+
+.mainBanner {
+    height: 400px;
+    background: url(../img/main/main-banner-bg.jpg) no-repeat center center/cover;
+}
+
+.mainBanner .inner {
+    text-align: center;
 }
