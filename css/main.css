@@ -219,10 +219,33 @@
 
 
 .mainBanner {
+    margin: 0 0 100px 0;
     height: 400px;
     background: url(../img/main/main-banner-bg.jpg) no-repeat center center/cover;
 }
 
 .mainBanner .inner {
     text-align: center;
+    color: #fff;
+}
+
+.mainBanner .inner .txt {
+    padding: 100px 0;
+}
+
+.mainBanner .inner strong {
+    display: block;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 0.045em;
+    margin: 0 0 20px 0;
+    text-shadow: 1px 0 5px #111;
+}
+
+.mainBanner .inner p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 30px;
+    text-shadow: 1px 0 5px #111;
 }
