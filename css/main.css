@@ -4,7 +4,14 @@
     left: 0;
     right: 0;
     letter-spacing: 0.05em;
+    z-index: 1;
 }
+
+.header.on {
+    background: #fff;
+    transition: background 0.2s linear;
+}
+
 
 .header:hover {
     background: #fff;
@@ -79,8 +86,10 @@
 
 
 
+
 .mainVisual .main_slide {
     z-index: -1;
+
 }
 
 .mainVisual .main_slide .itm {
