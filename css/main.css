@@ -161,7 +161,7 @@
 .mainMenu .inner .left h2 {
     font-size: 60px;
     font-weight: 700;
-    color: #333;
+    color: #111;
 }
 
 .mainMenu .inner .left p {
@@ -213,6 +213,7 @@
 .mainMenu .inner .menu_arrow i {
     margin: 0 95px 0 0;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 
@@ -220,8 +221,8 @@
 
 .mainBanner {
     margin: 0 0 100px 0;
-    height: 400px;
-    background: url(../img/main/main-banner-bg.jpg) no-repeat center center/cover;
+    height: 450px;
+    background: url(../img/main/main-banner-bg.jpg) no-repeat fixed center center/cover;
 }
 
 .mainBanner .inner {
@@ -235,17 +236,127 @@
 
 .mainBanner .inner strong {
     display: block;
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 900;
     letter-spacing: 0.045em;
-    margin: 0 0 20px 0;
-    text-shadow: 1px 0 5px #111;
+    margin: 0 0 30px 0;
 }
 
 .mainBanner .inner p {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 17px;
+    font-weight: 300;
     letter-spacing: 0.05em;
     line-height: 30px;
-    text-shadow: 1px 0 5px #111;
+
+    margin: 0 0 70px 0;
+}
+
+.mainBanner .inner a {
+    position: relative;
+    font-size: 20px;
+}
+
+.mainBanner .inner a::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: #fff;
+}
+
+.mainInsta {
+    padding: 0 0 150px 0;
+}
+
+.mainInsta h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #111;
+    line-height: 1.25;
+    padding: 0 0 30px 0;
+}
+
+.mainInsta p {
+    font-size: 20px;
+    letter-spacing: -0.025em;
+    padding: 0 0 50px 0;
+}
+
+.mainInsta .f_inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.mainInsta .f_inner .pics {
+    position: relative;
+    cursor: pointer;
+}
+
+.mainInsta .f_inner .pics img {
+    position: relative;
+    width: 350px;
+    height: 370px;
+}
+
+.mainInsta .f_inner .pics .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    padding: 60px 30px 120px;
+    opacity: 0;
+
+
+    color: #fff;
+    text-align: center;
+}
+
+.mainInsta .f_inner .pics .text p {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+
+.mainInsta .f_inner .pics:hover .text {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.mainInsta .f_inner .pics .t_center {
+    padding: 120px 30px;
+}
+
+
+
+.footer {
+    background: #222;
+    color: #f1f1f1;
+    height: 120px;
+}
+
+.footer .inner {
+    display: flex;
+    gap: 20px;
+    padding: 51px 0;
+}
+
+.footer .inner p {
+    display: inline-block;
+    font-size: 17px;
+    letter-spacing: 0.015em;
+}
+
+.footer .inner span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    letter-spacing: 0.025em;
+    color: #fff;
+    opacity: 0.2;
 }

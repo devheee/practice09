@@ -44,5 +44,11 @@ $(function () {
         slidesToScroll: 2,
     });
 
+    $('.mainMenu .menu_arrow i:first-child').on('click', function () {
+        $('.menu_slide').slick('slickPrev')
+    });
+    $('.mainMenu .menu_arrow i:last-child').on('click', function () {
+        $('.menu_slide').slick('slickNext')
+    });
 
 })
