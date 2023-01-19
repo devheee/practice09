@@ -65,8 +65,9 @@
     padding: 0 0 5px 0;
     font-size: 15px;
     color: #222;
-    z-index: 1111111111;
+    z-index: 1;
     border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
 }
 
 .header .gnb>li .smenu {

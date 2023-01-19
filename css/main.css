@@ -119,24 +119,6 @@
     font-weight: 500;
 }
 
-.mainVisual .slide_num {
-    position: absolute;
-    bottom: 200px;
-    left: 220px;
-}
-
-.mainVisual .slide_num span {
-    margin: 0 200px 0 0;
-}
-
-.mainVisual .slide_bar {
-    position: relative;
-    bottom: 195px;
-    left: 240px;
-    width: 180px;
-    height: 3px;
-    background: #fff;
-}
 
 .mainVisual .slide_arrow {
     position: absolute;
@@ -149,7 +131,7 @@
 
 .mainVisual .slide_arrow i:first-child {
     transform: rotate(180deg);
-    margin: 0 210px 0 0;
+    margin: 0 50px 0 0;
 }
 
 .mainMenu {
@@ -208,7 +190,7 @@
 
 }
 
-.mainMenu .inner .menu_num.on {
+.mainMenu .inner .menu_num span {
     color: #111;
 }
 
@@ -216,7 +198,7 @@
     position: absolute;
     bottom: 0;
     font-size: 30px;
-    color: #ddd;
+    color: #333;
 }
 
 .mainMenu .inner .menu_arrow i {
@@ -245,14 +227,14 @@
 
 .mainBanner .inner strong {
     display: block;
-    font-size: 48px;
+    font-size: 43px;
     font-weight: 900;
     letter-spacing: 0.045em;
     margin: 0 0 30px 0;
 }
 
 .mainBanner .inner p {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 300;
     letter-spacing: 0.05em;
     line-height: 30px;
