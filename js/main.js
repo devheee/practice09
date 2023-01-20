@@ -44,7 +44,7 @@ $(function () {
 
 
     $('.menu_slide').slick({
-        autoplay: false,
+        autoplay: true,
         arrows: false,
         slidesToShow: 2,
         slidesToScroll: 2,
